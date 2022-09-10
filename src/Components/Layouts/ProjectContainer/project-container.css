@@ -1,0 +1,51 @@
+  .project-container {
+      cursor: pointer;
+      height: fit-content;
+      border-radius: 10px;
+      background: #ffffff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .project-container:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .project-container .project-body {
+      padding: 5px;
+  }
+
+  .project-container .project-description {
+
+      font-size: 12px;
+      font-weight: 400;
+      color: lightslategray;
+      border-bottom: 1px solid #1C3879;
+      padding-bottom: 10px;
+  }
+
+  .project-container .project-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1C3879;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .project-container img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      transition: 0.5s;
+  }
+
+  .project-container .project-Item-used {
+      padding: 10px;
+      display: flex;
+
+  }
+
+  .project-container .project-Item-used img {
+      border: 1px solid rgb(172, 172, 172);
+      border-radius: 2px;
+      padding: 1px;
+      margin-right: 5px;
+  }

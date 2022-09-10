@@ -1,0 +1,14 @@
+.title-area {
+    display: flex;
+    justify-content: center;
+}
+
+.title-area p {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1C3879;
+    text-align: center;
+    width: max-content;
+    border-bottom: 3px solid #1C3879;
+}

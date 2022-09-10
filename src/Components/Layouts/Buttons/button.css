@@ -1,0 +1,8 @@
+.button-container button {
+    border: 1px solid #1C3879;
+    border-radius: 20px;
+    width: 100px;
+    padding: 3px 0px 4px 0px;
+    background-color: #1C3879;
+    color: #F9F5EB;
+}

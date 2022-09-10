@@ -1,0 +1,111 @@
+.banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 680px;
+}
+
+.banner-container .intro {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner-container .intro h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #EAE3D2;
+}
+
+.banner-container .intro h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #EAE3D2;
+}
+
+.banner-container .intro p {
+    color: #F9F5EB;
+    text-align: justify;
+}
+
+.banner-container .intro .socials {
+    margin-top: 20px;
+    display: flex;
+}
+
+.banner-container .intro .socials img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.banner-container .profile {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-container .profile img {
+
+    max-height: 300px;
+    max-width: 300px;
+    border: 3px solid white;
+}
+
+.banner-container .resume-btn button {
+    margin-top: 10px;
+    color: #F9F5EB;
+    padding: 10px;
+    border: 1px solid #F9F5EB;
+    border-radius: 10px;
+}
+
+.banner-container .resume-btn button:hover {
+    background-color: #F9F5EB;
+    transition: ease-in-out 0.2s;
+    margin-top: 10px;
+    color: #1C3879;
+    padding: 10px;
+    border: 1px solid #1C3879;
+    border-radius: 10px;
+}
+
+@media (max-width: 520px) {
+    .banner-container {
+        flex-direction: column;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-container .intro {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .banner-container .intro h3 {
+        font-size: 15px;
+        font-weight: 400;
+        color: #EAE3D2;
+    }
+
+    .banner-container .intro h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #EAE3D2;
+    }
+
+    .banner-container .intro p {
+        color: #F9F5EB;
+        text-align: justify;
+    }
+
+    .banner-container .profile img {
+        display: none;
+    }
+}

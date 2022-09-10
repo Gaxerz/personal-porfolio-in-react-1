@@ -1,0 +1,123 @@
+.experience-area {
+    /* background-color: #f8f8f7; */
+    padding: 70px 50px 70px 50px;
+
+}
+
+.experience-area .title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1C3879;
+    text-align: center;
+}
+
+.experience-area .item-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.experience-area .experience-container {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.1s;
+    box-shadow: 0 1px 1px 0 rgb(206, 206, 206), 0 1px 5px 0 rgb(206, 206, 206);
+    /* box-shadow: 1px 1px 1px 0.2px rgb(206, 206, 206); */
+}
+
+.experience-area .experience-container:hover {
+    box-shadow: 0 1px 1px 0 rgb(206, 206, 206), 0 3px 10px 0 rgb(206, 206, 206);
+
+}
+
+.experience-area .experience-container .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.experience-area .experience-container .left-side .company-name {
+    color: #607EAA;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.experience-area .experience-container .left-side p {
+    color: #7e7e7e;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.experience-area .experience-container .right-side {
+    width: 69%;
+}
+
+.experience-area .experience-container .right-side .job-title {
+    color: #1C3879;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px 0px 5px 0px;
+}
+
+.experience-area .experience-container .right-side .job-description {
+    color: #607EAA;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 0px 5px 0px;
+    text-align: justify;
+}
+
+.experience-area .experience-container .right-side .resp-title {
+    color: #1C3879;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 0px 2px 0px;
+}
+
+.experience-area .experience-container .right-side .res {
+    color: #7e7e7e;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 0px 2px 5px;
+}
+
+.experience-area .experience-container .right-side .res li {
+    text-decoration: dotted !important;
+}
+
+@media (max-width: 520px) {
+    .experience-area {
+        /* background-color: #f8f8f7; */
+        padding: 70px 10px 70px 10px;
+
+    }
+
+    .experience-area .item-list {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .experience-area .experience-container {
+        flex-direction: column;
+        padding: 2px;
+        justify-content: none;
+    }
+
+    .experience-area .experience-container .left-side {
+        width: auto;
+    }
+
+    .experience-area .experience-container .right-side {
+        padding: 5px;
+        width: auto;
+        justify-content: center;
+    }
+}

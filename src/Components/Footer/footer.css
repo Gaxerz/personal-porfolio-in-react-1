@@ -1,0 +1,11 @@
+.footer-area {
+    background: #1C3879;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    height: 200px;
+}

@@ -1,0 +1,27 @@
+.skills-area {
+    background-color: #f8f8f7;
+    padding: 70px 50px 70px 50px;
+
+}
+
+.skills-area .title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1C3879;
+    text-align: center;
+}
+
+.skills-area .item-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+@media (max-width: 520px) {
+    .skills-area .item-list {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 1rem;
+    }
+}
